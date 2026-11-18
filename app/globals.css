@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#f5f6fc;color:#202746;font-family:Nunito,Arial,sans-serif}
+button,input,select{font:inherit}
+.card{background:white;border:1px solid #e8e9f2;border-radius:20px;padding:18px;box-shadow:0 5px 20px #28366a0a}
+.btn{border:0;border-radius:13px;padding:11px 16px;font-weight:800;cursor:pointer}
+.btn-primary{background:#6555c8;color:white}
+.btn-light{background:#f0effb;color:#5144a6}
+.input{width:100%;padding:12px;border:1px solid #dfe1ed;border-radius:12px;background:white;color:#202746}
+.answer{border:2px solid #e5e6f0;border-radius:15px;padding:18px;background:white;font-size:22px;font-weight:900;cursor:pointer}
+.answer.selected{border-color:#6858ca;background:#f1efff}
+.answer.correct{border-color:#20a16d;background:#eaf8f1}
+.answer.incorrect{border-color:#dc6969;background:#fff0f0}
